@@ -15,5 +15,8 @@ Kernel block I/O and device drivers belong to [Wicofe-Kernel](https://github.com
 ## Safety
 Every destructive action must identify the exact target, validate capacity, display the planned changes, require explicit confirmation, and define interruption behavior. Device paths must not be assumed stable.
 
+## Technical design
+- [Userspace storage management design 0.1](STORAGE_MANAGEMENT_DESIGN_0.1.md)
+
 - [Central documentation index](https://github.com/Waizusora/Wicofe-Docs/blob/main/INDEX.md)
 - [Repository documentation map](https://github.com/Waizusora/Wicofe-Docs/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
